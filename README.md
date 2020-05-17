@@ -31,12 +31,17 @@ Target user dari aplikasi kami adalah masyarakat Bogor yang merasa bahwa aspek k
 * Sebagai pihak Kepolisian, saya dapat memberi laporan berupa peringatan kepada pemilik angkutan umum apabila mendapatkan laporan dari masyarakat Bogor minimal 10 (sepuluh) jenis laporan.
 # Use Case Diagram
 ![Project Akhir RPL](https://user-images.githubusercontent.com/60083612/82139271-dbc2be00-9850-11ea-9189-150054c39fe9.jpg)
+
 # Use Case Description
+<img width="495" alt="Jepretan Layar 2020-05-18 pukul 00 50 22" src="https://user-images.githubusercontent.com/60083612/82155877-1739a880-98a2-11ea-89d7-9568e0084e7a.png">
+
+<img width="467" alt="Jepretan Layar 2020-05-18 pukul 00 50 47" src="https://user-images.githubusercontent.com/60083612/82155908-46e8b080-98a2-11ea-80ce-06f0c1548bdf.png">
 
 # Activity Diagram
 ![Activity diagram](https://user-images.githubusercontent.com/60083612/82139032-4b37ae00-984f-11ea-9a7a-4e88663498d7.png)
+
 # Gantt Chart
-<img width="585" alt="Teamgantts" src="https://user-images.githubusercontent.com/60083612/82139361-71f6e400-9851-11ea-9c14-e8a2761069ea.png">
+<img width="816" alt="Jepretan Layar 2020-05-18 pukul 00 48 49" src="https://user-images.githubusercontent.com/60083612/82155853-ef4a4500-98a1-11ea-96bf-72d85f38cfa1.png">
 
 # ERD
 ![ERDProjectRPL](https://user-images.githubusercontent.com/60083612/82139140-082a0a80-9850-11ea-9787-1766353386d7.jpg)
