@@ -7,6 +7,8 @@ import Login from './Login';
 import ScanTutorial from './ScanTutorial';
 import CameraScanner from './CameraScanner';
 import ReportSubmission from './ReportSubmission';
+import Reportscreen from './Reportscreen';
+import Submitted from './Submitted';
 
 const Stack = createStackNavigator();
 
@@ -34,7 +36,9 @@ const MyStack = () => {
         <Stack.Screen name="Report Submission">
           {() => <ReportSubmission />}
         </Stack.Screen>
-      </Stack.Navigator>
+        </Stack.Screen name="Report Screen">{() => <Reportscreen />}</Stack.Screen>
+          </Stack.Screen name="Submitted">{() => <Submitted />}</Stack.Screen>
+    </Stack.Navigator>
     </NavigationContainer>
   );
 };
