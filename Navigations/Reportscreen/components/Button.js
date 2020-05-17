@@ -9,7 +9,7 @@ const Button = () => {
 
   const handleGoToSubmitted = useCallback(() => {
     navigation.navigate('Submitted');
-  }, [dispatch, navigation]);
+  }
   return (
     <View style={styles.buttonContainer}>
       <TouchableOpacity
