@@ -36,7 +36,7 @@ const MyStack = () => {
         <Stack.Screen name="Report Submission">
           {() => <ReportSubmission />}
         </Stack.Screen>
-        <Stack.Screen name="Report Screen">{() => <Reportscreen />}</Stack.Screen>
+        <Stack.Screen name="Report Screen">{() => <ReportScreen />}</Stack.Screen>
         <Stack.Screen name="Submitted">{() => <Submitted />}</Stack.Screen>
     </Stack.Navigator>
     </NavigationContainer>
