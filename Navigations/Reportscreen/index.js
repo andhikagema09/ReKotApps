@@ -9,7 +9,7 @@ import Checkbox4 from './components/Checkbox4';
 import Checkbox5 from './components/Checkbox5';
 import Checkbox6 from './components/Checkbox6';
 
-const Reportscreen = () => {
+const ReportScreen = () => {
     const [IsiLaporan, setIsiLaporan] = useState('');
     const handleOnChangeIsiLaporan = useCallback(text => {
         setIsiLaporan(text);
@@ -59,4 +59,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default memo(Reportscreen);
+export default memo(ReportScreen);
