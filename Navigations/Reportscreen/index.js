@@ -9,7 +9,7 @@ import Checkbox4 from './components/Checkbox4';
 import Checkbox5 from './components/Checkbox5';
 import Checkbox6 from './components/Checkbox6';
 
-const Reportscreen = () => {
+const ReportScreen = () => {
     const [IsiLaporan, setIsiLaporan] = useState('');
     const handleOnChangeIsiLaporan = useCallback(text => {
         setIsiLaporan(text);
@@ -27,12 +27,12 @@ const Reportscreen = () => {
          <Checkbox4 isChecked={isChecked} handleOnChange={handleOnChange} />
          <Checkbox5 isChecked={isChecked} handleOnChange={handleOnChange} />
          <Checkbox6 isChecked={isChecked} handleOnChange={handleOnChange} />
-         <Button handleOnPress={handleOnPress} isLoading={loadingButton} />
           <TextInput
             marginTop={4}
             label="Isi Laporan Anda"
             handleOnChange={handleOnChangeFullName}
           />
+          <Button handleOnPress={handleOnPress} isLoading={loadingButton} />
         </ScrollView>
     </SafeAreaView>
   );
@@ -59,4 +59,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default memo(Reportscreen);
+export default memo(ReportScreen);
