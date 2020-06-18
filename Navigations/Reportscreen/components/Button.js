@@ -1,12 +1,9 @@
 import React, {memo, useCallback, useContext} from 'react';
 import {TouchableOpacity, Text, StyleSheet, View} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
-import {GlobalContextDispatch} from '../../../context';
 
 const Button = () => {
   const navigation = useNavigation();
-  const dispatch = useContext(GlobalContextDispatch);
-
   const handleGoToSubmitted = useCallback(() => {
     navigation.navigate('Submitted');
   }, [navigation]);
