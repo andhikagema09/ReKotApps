@@ -5,8 +5,6 @@ import {GlobalContextDispatch} from '../../../context';
 
 const Button = () => {
   const navigation = useNavigation();
-  const dispatch = useContext(GlobalContextDispatch);
-
   const handleGoToSubmitted = useCallback(() => {
     navigation.navigate('Submitted');
   }, [navigation]);
